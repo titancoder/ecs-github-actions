@@ -11,6 +11,6 @@ app.get("/health",(req,res)=>{
     res.status(200).json({})
 })
 
-app.listen(3000,()=>{
-    console.log("Server listening on 3000");
+app.listen(5000,()=>{
+    console.log("Server listening on 5000");
 })
